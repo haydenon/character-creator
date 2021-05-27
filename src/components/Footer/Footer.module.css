@@ -1,9 +1,17 @@
 .footer {
-  position: relative;
+  position: absolute;
+  top: 100%;
   padding: 64px;
   background: hsl(0deg, 0%, 5%);
   color: white;
   text-align: center;
+}
+
+@media screen and (min-device-width: 600px) {
+  .footer {
+    top: unset;
+    position: relative;
+  }
 }
 
 .footerLink {

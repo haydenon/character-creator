@@ -10,6 +10,16 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+  max-width: 305px;
+  margin-right: 32px;
+}
+
+@media screen and (min-device-width: 600px) {
+  .controlPane {
+    max-width: unset;
+    margin-right: 0;
+  }
 }
 
 .title {
